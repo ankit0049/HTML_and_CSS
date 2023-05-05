@@ -1,0 +1,219 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 100%;
+    height: 100vh; 
+    position: relative;  
+    animation: round 4s  linear infinite ; 
+   opacity: 0;
+} 
+.circle1
+{  position: absolute;
+    width:40%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius:50% ; 
+    transform: perspective(100px) rotate(30deg); 
+    background:linear-gradient(yellow,red,green)
+} 
+
+.circle2
+{  position: absolute;
+    width:40%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius:50% ; 
+    transform: perspective(100px) rotate(50deg); 
+    background: linear-gradient(black,grey,blue);
+}
+
+.circle3
+{  position: absolute;
+    width:40%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius:50% ;
+    transform: perspective(100px) rotate(80deg);
+    background:linear-gradient(yellow,red,green)
+}
+
+.circle4
+{  position: absolute;
+    width:40%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius:50% ;
+    transform: perspective(100px) rotate(110deg);
+    background: linear-gradient(black,grey,blue);
+}
+
+.circle5
+{  position: absolute;
+    width:40%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius:50% ; 
+    transform: perspective(100px) rotate(140deg);
+    background:linear-gradient(yellow,red,green)
+}
+
+.circle6
+{  position: absolute;
+    width:40%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius:50% ; 
+    transform: perspective(100px) rotate(-10deg);  
+    background: linear-gradient(black,grey,blue);
+
+}   
+.circle1:hover,.circle3:hover,.circle5:hover{
+    transform: perspective(300px) scalex(1.2rem) rotate(30); 
+    background: blue; 
+
+}
+
+.circle2:hover,.circle4:hover,.circle6:hover{
+    transform: perspective(300px) scalex(1.2rem) rotate(30); 
+  
+} @keyframes round {
+    0%
+    {   opacity: 0.5;
+        width: 10%; 
+        height: 10%;    
+        border-radius: 30%;
+        background: linear-gradient(black,grey,blue); ;
+    } 
+
+    50%
+    {   opacity: 0.8;
+        width: 50%; 
+        height: 50%;  
+        margin-top: 100px; 
+        background: linear-gradient(yellow,grey,green); ;
+    }  
+
+    70% 
+    {  opacity: 1;
+        width: 75%; 
+        height: 75%;  
+        margin-top: 100px; 
+        background: linear-gradient(yellow,grey,green); ;
+    }  
+
+    100%
+    {    opacity: 1.2;
+        width: 100%; 
+        height: 100%;  
+        margin-top: 200px; 
+      
+        background: linear-gradient(aqua ,white,lightpink
+        ); 
+    }
+    
+}
+
+ */
+ 
+ *
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } 
+
+ body
+ {
+    width: 100%;
+    min-height: 100vh;
+    background-color: aqua;   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+
+ } 
+ 
+ .circle
+ {   
+     position:relative;
+    width: 600px;
+    height: 60vh;
+    border: 1px solid white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+    
+ }
+   
+  
+ .circle .ring{ 
+  
+    width:150px;
+    height: 20vh;
+    border-radius: 50%;
+    border: 1px solid transparent; 
+    border-top:4px solid grey; 
+    position:relative;  
+ 
+   animation: name 2s linear infinite ;
+ }   
+ 
+ .circle .ring:nth-child(3)
+ {
+    position:absolute;
+    top:28%;
+    margin-top:-10%; 
+    
+   
+ } 
+ 
+ 
+ .circle .ring::before
+ {  
+    content: '';
+     position: absolute;
+    top: 24px;
+    right:2px;
+    bottom:0;
+    width: 12px;
+    height: 12px;
+    border: 1px solid red;
+   background-color: black;
+   border-radius: 50%;
+ }   
+
+ .circle .ring:nth-child(3)::after
+ {  
+    content: '';
+    position: absolute;
+    top: 24px;
+    right:2px;
+    bottom:0;
+    width: 12px;
+    height: 12px;
+    border-right: 11px solid red;
+
+   border-radius: 100%;
+ }  
+
+ 
+ @keyframes name {
+    0%
+    {
+        transform: rotate(0deg);
+    } 
+    100%
+    {
+        transform: rotate(360deg);
+    }
+    
+ } 

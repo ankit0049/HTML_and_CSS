@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{   background: linear-gradient(to right,rgba(5, 196, 107,0.5),rgba(5, 196, 107,1));
+    border: 2px solid ;
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+    font-family:Verdana, Tahoma, sans-serif ;
+  
+} 
+.container h1{
+    position: relative;
+    text-shadow: 0 0 10px white;
+    left: 5px;
+}
+.Border
+{   background-color: aliceblue;
+    border-radius: 4px;
+    box-shadow: 0 0 10px ;
+    width: 95%;
+    height: auto;
+    border: 2px solid;
+   padding: 10px 40px;
+}
+.spread input{
+    width: 100%;
+    margin: 5px auto;
+    padding: 7px;
+} 
+#option
+{
+    width: 100%;
+    padding: 7px;
+    margin: 4px auto;
+    border-radius:5px;
+   
+} 
+.suggestion
+{
+    margin: 10px 0 4px 0;
+}
+.select
+{
+    margin: 10px 0  4px 0;
+} 
+.submit
+{   padding: 3px;
+    background-color:#05c46b;
+    text-align: center;
+    font-family: inherit;
+    color: black;
+    border: 1px solid;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(54, 0, 161 ,0.8);
+}
+.feedback
+{
+   margin:4px 0 10px 0px;
+   padding: 8px;
+   border-radius: 3px;
+   width: 100%;
+} 
+.submit:hover{
+    background:linear-gradient(to bottom right,#05c46b,green);
+    font-weight: 900px;
+}
+.container:hover{
+    color:black;
+    background: linear-gradient(to top left,red,yellow);
+
+}

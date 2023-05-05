@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+} 
+ .container
+ {
+    width: 100%;
+    height: 100vh;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-style: italic;
+    font: weight 400px;
+ }
+.image1
+{     background-repeat: no-repeat;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.6lL4MboZ6-ZtULpHuGykaAHaE7&pid=Api&P=0); 
+    width: 100%;
+    background-size: cover;
+    height: 50vh; 
+    background-attachment: fixed;
+   
+} 
+.image1 h2{
+    background-color: black;
+    color: white;
+    width: 200px; 
+    height: 6vh;
+    margin: 0 auto; 
+    position: relative;
+    top: 150px;  
+    display: flex;
+     justify-content: center;
+    align-items: center;
+
+} 
+.content1
+{
+    background-color: #ccc; 
+    color:rgb(40, 10, 20);
+    width: 100%;
+    height: 25%;
+}
+
+
+.image2
+{     background-repeat: no-repeat;
+    background-image:url(https://tse4.mm.bing.net/th?id=OIP.TKH-sTOYPrg010xg-ENWLQHaEo&pid=Api&P=0);
+    width: 100%;
+    background-size:cover;
+    height:50vh; 
+    background-attachment:fixed;
+   
+} 
+.image2 h2{
+    background-color: black;
+    color: white;
+    width: 200px; 
+    height: 6vh;
+    margin: 0 auto; 
+    position: relative;
+    top: 150px;  
+    display: flex;
+     justify-content: center;
+    align-items: center;
+
+} 
+.content2
+{
+    background-color: black;
+    color: #ccc; 
+    width: 100%;
+    height: 25%;
+} 
+ 
+
+.image3
+{     background-repeat: no-repeat;
+    background-image:url(https://tse4.mm.bing.net/th?id=OIP.r8IqnZvajmcmfws6fDgfvwHaEo&pid=Api&P=0);
+    width: 100%;
+    background-size:cover;
+    height:50vh; 
+    background-attachment:fixed;
+   
+} 
+.image3 h2{
+    background-color: black;
+    color: white;
+    width: 200px; 
+    height: 6vh;
+    margin: 0 auto; 
+    position: relative;
+    top: 150px;  
+    display: flex;
+     justify-content: center;
+    align-items: center;
+
+} 
+.content3
+{
+    background-color: #ccc; 
+    color:rgb(40, 10, 20);
+    width: 100%;
+    height: 25%;
+} 
